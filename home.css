@@ -1,0 +1,85 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(206, 30, 144);
+    color: white;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav li{
+    margin: 5px 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+
+}
+.hero{
+    background-image: url(./assests/main.jpg);
+    background-size: cover;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+}
+.hero-content{
+    text-align: center;
+    padding: 20px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.dances{
+    background-color:rgb(193, 129, 174);
+    padding: 40px 0;
+}
+.dances h1{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.dances-lists{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dance-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+.dance-item img{
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    border-bottom: 20px;
+}
+footer{
+    background-color: rgb(206, 30, 144);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
