@@ -32,7 +32,7 @@ nav a{
     height:80vh;
     display: flex;
     justify-content: center;
-    color: black;
+    color: rgb(140, 69, 207);
     align-items: center;
 }
 .hero-content{
@@ -41,9 +41,9 @@ nav a{
 }
 .button{
     text-decoration: none;
-    color: white;
+    color: rgb(15, 10, 10);
     display: inline-block;
-    background-color: blue;
+    background-color: rgb(177, 65, 144);
     padding: 10px 20px;
     border-radius: 10px;
 }
@@ -75,9 +75,152 @@ nav a{
     height: 150px;
     border-radius: 50%;
     border-bottom: 20px;
+
+
 }
+
+.gallery {
+       background-color: rgb(170, 112, 144);
+        padding: 40px 0;
+      }
+      
+.gallery-lists {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap; 
+      }
+.gallery-list{
+        width: 500px;
+        margin: 10px;
+        
+    }
+ .gallery-list img{
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+ }
+main{
+    
+    background-color: rgb(237, 183, 215);
+    margin: 10px;
+    padding: 10px;
+}
+.form-container{
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    border: 50px;
+    border-color: pink;
+    border-radius: 5px;
+}
+.label{
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="phone"]{
+    width:200px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+ input[type=submit]{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    color: pink;
+    background-color: rgb(190, 44, 139);
+    cursor: pointer;
+ }   
+ input[type="submit"]:hover{
+    background-color: rgb(201, 123, 181);
+
+ }
+ .ul{
+    list-style-type: circle;
+ }
+
+.li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: pink;
+    margin-bottom: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 ;
+    background-color: rgb(193, 108, 183);
+    border-radius: 5px;
+
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(120, 77, 111);
+}
+
+p {
+    color: pink;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+h3{
+    text-align: left;
+    color: black;
+    
+}
+.label{
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="phone"]{
+    width:200px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    color: pink;
+    background-color: rgb(190, 44, 139);
+    cursor: pointer;
+ }   
+ input[type="submit"]:hover{
+    background-color: rgb(201, 123, 181);
+ }
+
+
+
+  
 footer{
-    background-color: rgb(206, 30, 144);
+    background-color: rgb(156, 78, 129);
     color: white;
     padding: 10px;
     text-align: center;
